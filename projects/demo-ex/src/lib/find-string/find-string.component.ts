@@ -32,8 +32,5 @@ export class FindStringComponent implements OnInit, OnChanges {
     this.controlledContent = this.originalContent.replace(
       new RegExp(value, 'g'), 
       `<span class="${this.color}">${value}</span>`)
-      // this.controlledContent = this.originalContent.replace(
-      //   new RegExp(value, 'g'), 
-      //   `<span style="background-color: ${this.color}">${value}</span>`)
   }
 }

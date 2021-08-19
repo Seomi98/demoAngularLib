@@ -1,5 +1,4 @@
 // also exported from '@storybook/angular' if you can deal with breaking changes in 6.1
-import { Story } from '@storybook/angular/types-6-0';
 import { FindStringComponent } from './find-string.component';
 import { moduleMetadata } from '@storybook/angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
