@@ -1,0 +1,12 @@
+<div>
+    <input type="text" (keydown.enter)="find($event)" [(ngModel)]="text">
+    <div #content [hidden]="true">
+        This page provides a conceptual overview of how you can create and publish new libraries to extend Angular
+        functionality.
+        If you find that you need to solve the same problem in more than one application (or want to share your solution
+        with other developers), you have a candidate for a library. A simple example might be a button that sends users
+        to your company we
+        that would be included in all applications that your company builds.
+    </div>
+    <div [innerHTML]="controlledContent"></div>
+</div>
